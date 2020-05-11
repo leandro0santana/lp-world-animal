@@ -1,0 +1,331 @@
+<?php
+ $img = $_GET["imgEscolhida"];
+ if(!isset($_GET["imgEscolhida"])){
+	$img="templatebaldefrase1";
+ }
+?>
+<!doctype html>
+<html lang="pt">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<!-- Facebook -->
+		<meta property="og:url" content="http://chegadecrueldade.com/frangos/index.php?imgEscolhida=<?=$img?>" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="Chega de Crueldade com os frangos" />
+		<meta property="og:description" content="Consuma com consciência. Peça para a sua rede de fast food favorita parar de comprar frangos criados de maneira cruel." />
+		<meta property="og:image" content="http://chegadecrueldade.com/frangos/fontes/img/<?=$img?>_ret.png" />
+
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary" />
+		<meta property="og:url" content="http://chegadecrueldade.com/frangos/index.php?imgEscolhida=<?=$img?>" />
+		<meta property="og:title" content="Chega de Crueldade com os frangos" />
+		<meta property="og:description" content="Consuma com consciência. Peça para a sua rede de fast food favorita parar de comprar frangos criados de maneira cruel." />
+		<meta property="og:image" content="http://chegadecrueldade.com/frangos/fontes/img/<?=$img?>_ret.png" />
+
+		<title>Chega de crueldade com frangos</title>
+
+		<!-- CSS -->
+		<link href="fontes/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="fontes/dist/css/style.css" rel="stylesheet">
+		<link href="fontes/dist/css/carousel.css" rel="stylesheet">
+		<link rel="shortcut icon" href="https://d31j74p4lpxrfp.cloudfront.net/sites/all/themes/wspa_zen_br/favicon.ico" type="image/vnd.microsoft.icon" />
+	</head>
+	<body class="bg-light">
+		<header>
+			<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+				<a class="navbar-brand" href="http://www.protecaoanimalmundial.org.br" target="_blank"><img class="imgHeader" src="fontes/img/logo_cima.svg" alt=""></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#"> </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#"></a>
+					</li>
+					</ul>
+					<form class="form-inline mt-2 mt-md-0">
+					<a href="http://www.protecaoanimalmundial.org.br/frangos" target="_blank" class="btn btn-primary">Saiba mais sobre a campanha</a>
+					</form>
+				</div>
+			</nav>
+		</header>
+		<br>
+		<!-- Carousel Mobile -->
+		<div id="myCarousel" class="carousel slide mobile" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="first-slide img-fluid" src="fontes/img/banner-balde-mobile.png" alt="First slide">
+				</div>
+				<div class="carousel-item">
+					<img class="second-slide img-fluid" src="fontes/img/banner-burguer-mobile.png" alt="Second slide">
+				</div>
+				<div class="carousel-item">
+					<img class="third-slide img-fluid" src="fontes/img/banner-nuggets-mobile.png " alt="Third slide">
+				</div>
+			</div>
+		</div>
+		<!-- Carousel Desktop -->
+		<div id="myCarousel" class="carousel slide desktop" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="first-slide img-fluid" src="fontes/img/banner-balde-desk.png" alt="First slide">
+				</div>
+				<div class="carousel-item">
+					<img class="second-slide img-fluid" src="fontes/img/banner-burguer-desk.png" alt="Second slide">
+				</div>
+				<div class="carousel-item">
+					<img class="third-slide img-fluid" src="fontes/img/banner-nuggets-desk.png " alt="Third slide">
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 distancia-center desktop">
+					<h1 class="texto-black">Peça para seu fast food favorito manter frango maltratado fora do menu.</h1><br>
+					<p class="texto-cinza">Consuma com consciência. Peça para a sua rede de fast food favorita parar de comprar frangos criados de maneira cruel.</p>
+					<p class="texto-cinza">Com apenas R$ 0,25 a mais por lanche é possível acabar com o sofrimento de milhões de frangos.</p>
+				</div>
+
+				<div class="col-md-12 distancia-center mobile">
+					<h3 class="texto-black">Peça para seu fast food favorito manter frango maltratado fora do menu.</h3><br>
+					<p class="texto-cinza">Consuma com consciência. Peça para a sua rede de fast food favorita parar de comprar frangos criados de maneira cruel.</p>
+					<p class="texto-cinza">Com apenas R$ 0,25 a mais por lanche é possível acabar com o sofrimento de milhões de frangos.</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12 distancia-center">
+					<img class="img-fluid" src="fontes/img/galinhas.png " alt="">
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-12 distancia-center">
+					<h1 class="texto-black desktop">Faça seu post e espalhe essa ideia.</h1>
+					<h4 class="texto-black mobile">Faça seu post e espalhe essa ideia.</h4>
+				</div>
+			</div>
+
+			<!-- Escolha seu template -->
+			<div class="container-marketing">
+				<div class="row bg-white">
+					<div class="col-md-12 distancia-center">
+						<h3 class="text-title">Escolha pelo número:</h3>
+					</div>
+				</div>
+				<div class="row bg-white">
+					<div class="col-md-3 desktop"></div>
+					<div class="col-md-2 number distancia-combox">
+						<img class="img-card img-fluid menu menuActive" src="fontes/img/template-balde.png" id="templatebalde" alt="">
+						<p class="text-number">Número 1</p>
+					</div>
+					<div class="col-md-2 number distancia-combox">
+						<img class="img-card img-fluid menu" src="fontes/img/template-burger.png" id="templateburger" alt="">
+						<p class="text-number">Número 2</p>
+					</div>
+					<div class="col-md-2 number distancia-combox">
+						<img class="img-card img-fluid menu" src="fontes/img/template-nuggets.png" id="templatenuggets" alt="">
+						<p class="text-number">Número 3</p>
+					</div>
+					<div class="col-md-3"></div>
+				</div>
+				<div class="row bg-white">
+					<div class="col-md-12 distancia-center">
+						<img class="img-fluid contorno" id="imgResult" src="fontes/img/templatebaldefrase1.png" alt="">
+					</div>
+				</div>
+				<div class="row bg-white">
+					<div class="col-md-1 desktop"></div>
+					<div class="col-md-2 phrase distancia-combox">
+						<img class="img-card img-fluid frase fraseActive" id="frase1" src="fontes/img/template-frase-01.png" alt="">
+					</div>
+					<div class="col-md-2 phrase distancia-combox">
+						<img class="img-card img-fluid frase" id="frase2" src="fontes/img/template-frase-02.png" alt="">
+					</div>
+					<div class="col-md-2 phrase distancia-combox">
+						<img class="img-card img-fluid frase" id="frase3"  src="fontes/img/template-frase-03.png" alt="">
+					</div>
+					<div class="col-md-2 phrase distancia-combox">
+						<img class="img-card img-fluid frase" id="frase4" src="fontes/img/template-frase-04.png" alt="">
+					</div>
+					<div class="col-md-2 phrase distancia-combox">
+						<img class="img-card img-fluid frase" id="frase5" src="fontes/img/template-frase-05.png" alt="">
+					</div>
+					<div class="col-md-1 desktop"></div>
+				</div>
+				<div class="row bg-white">
+					<div class="col-md-12 distancia-center desktop">
+						<p class="texto-cinza-cbx">Adicione a hashtag #Chegadecrueldadecomfrangos, marque a sua rede</p>
+						<p class="texto-cinza-cbx">de fast-food favorita e compartilhe nas suas mídias sociais.</p>
+					</div>
+
+					<div class="col-md-12 distancia-center mobile">
+						<p class="texto-cinza">Adicione a hashtag #Chegadecrueldadecomfrangos, marque a sua rede de fast-food favorita e compartilhe nas suas mídias sociais.</p>
+					</div>
+				</div>
+				<div class="row bg-white">
+					<div class="col-md-6 distancia-center">
+						<a href="fontes/img/templatebaldefrase1.png" target="_blank" class="btn btn-secondary" download="templatebaldefrase1.png">Download</a>
+					</div>
+					<div class="col-md-6 distancia-center">
+						<a href="compartilhar.php?imgEscolhida=templatebaldefrase1" target="_blank" class="btn btn-primary compartilhar">Compartilhar</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 distancia-center desktop">
+					<h1 class="texto-black">Obrigado por participar.<br> 
+					Por favor, conte mais sobre você.</h1>
+				</div>
+				
+				<div class="col-md-12 distancia-center mobile">
+					<h4 class="texto-black">Obrigado por participar.<br> 
+					Por favor, conte mais sobre você.</h4>
+				</div>
+			</div>
+
+			<!-- Formulário Cadastro -->
+			<div class="container-marketing">
+				<div class="row bg-white">
+					<div class="col-md-12 distancia">
+						<form class="needs-validation" novalidate action="" method="post">
+							<div class="form-row">
+								<div class="col-md-10 mb-3">
+									<input type="text" class="form-control" name="nome" id="invalidCheck" placeholder="Nome*" value="" required>
+									<div class="invalid-feedback">
+										Campo obrigatório!
+									</div>
+								</div>
+								<div class="col-md-10 mb-3">
+									<input type="text" class="form-control" name="sobrenome" id="invalidCheck" placeholder="Sobrenome*" value="" required>
+									<div class="invalid-feedback">
+										Campo obrigatório!
+									</div>
+								</div>
+								<div class="col-md-10 mb-3">
+									<input type="email" class="form-control" name="email" id="invalidCheck" placeholder="E-mail*" value="" required>
+									<div class="invalid-feedback">
+										Campo obrigatório!
+									</div>
+								</div>
+								<div class="col-md-10 mb-3">
+									<input type="text" class="form-control" name="celular" maxlength="14" id="celular" placeholder="WhatsApp (opcional)" value="">
+									<div class="invalid-feedback">
+										Campo obrigatório!
+									</div>
+								</div>
+								<div class="col-md-10 mb-3">
+									<div class="form-group form-check">
+										<input type="checkbox" class="form-check-input" name="autorizo" id="exampleCheck1">
+										<label class="form-check-label" for="exampleCheck1">Autorizo a Proteção Animal Mundial a enviar mensagens para meu celular por meio do WhatsApp</label>
+									</div>
+									<div class="form-group form-check">
+										<input type="checkbox" class="form-check-input" name="deseja" id="exampleCheck1">
+										<label class="form-check-label" for="exampleCheck1">Desejo receber notícias da Proteção Animal Mundial</label>
+									</div>
+								</div>
+							</div>
+							<button class="btn btn-primary" type="submit">Enviar</button>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6 distancia-link">
+					<a href="https://www.worldanimalprotection.org.br/politica-de-privacidade" target="_blank" class="text-link-black">Política de privacidade</a>
+				</div>
+				<div class="col-md-6 distancia-link">
+					<a href="https://www.worldanimalprotection.org.br/termos-de-uso" target="_blank" class="text-link-black">Termos de uso</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<div class="container-footer">
+			<div class="row bg-cinza">
+				<div class="col-md-3 desktop"></div>
+				<div class="col-md-2 distancia-center desktop">
+					<a href="http://www.protecaoanimalmundial.org.br"><img class="img-card img-fluid" src="fontes/img/logo-world-animal.png " alt=""></a>
+				</div>
+				<div class="col-md-6 distancia desktop">
+					<h2 class="texto-orange"><a href="http://www.protecaoanimalmundial.org.br" style="color:#ff6a00; text-decoration:underline;">Clique aqui</a> e conheça<br> 
+					a Proteção Animal Mundial.</h2>
+				</div>
+
+				<div class="col-md-6 distancia-center-mobile mobile">
+					<a href="http://www.protecaoanimalmundial.org.br"><img class="img-card img-fluid" src="fontes/img/logo-world-animal.png " alt=""></a>
+				</div>
+				<div class="col-md-6 distancia-center mobile">
+					<h4 class="texto-orange"><a href="http://www.protecaoanimalmundial.org.br" style="color:#ff6a00; text-decoration:underline;">Clique aqui</a> e conheça
+						a Proteção Animal Mundial.</h4>
+				</div>
+			</div>
+			<div class="row bg-cinza-footer">
+				<div class="col-md-6 distancia-footer">
+					<img class="img-fluid desktop" src="fontes/img/logo_fundraising.png " width="30%" alt="">
+					<img class="img-fluid mobile" src="fontes/img/logo_fundraising.png " width="50%" alt="">
+				</div>
+				<div class="col-md-6 distancia-footer">
+					<p class="texto-footer">
+							World Animal Protection - Todos os direitos reservados<br>
+							Av. Paulista 453, conj. 32-34 CEP: 01311-000, São Paulo (SP) - Brasil Telefone: +55(11)2344-3777.<br>
+							Email: <a href="mailto:contato@worldanimalprotection.org.br" target="_blank">contato@worldanimalprotection.org.br*</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- JavaScript -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+		<script src="fontes/assets/js/vendor/popper.min.js"></script>
+		<script src="fontes/dist/js/bootstrap.min.js"></script>
+		<script src="fontes/dist/js/templates.js"></script>
+		<script src="fontes/assets/js/vendor/holder.min.js"></script>
+		<script>
+			(function() {
+				'use strict';
+				window.addEventListener('load', function() {
+				var forms = document.getElementsByClassName('needs-validation');
+				var validation = Array.prototype.filter.call(forms, function(form) {
+					form.addEventListener('submit', function(event) {
+					if (form.checkValidity() === false) {
+						event.preventDefault();
+						event.stopPropagation();
+					}
+					form.classList.add('was-validated');
+					}, false);
+				});
+				}, false);
+			})();
+		</script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
+		<script>
+			$(document).ready(function () { 
+				var $seuCampoCelular = $("#celular");
+				$seuCampoCelular.mask('(00)00000-0000');
+			});
+		</script>
+	</body>
+</html>
